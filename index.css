@@ -48,15 +48,21 @@ tr:nth-child(8) > th{
 
 }
 
-tr:nth-child(2) > th:hover, 
-tr:nth-child(3) > th:hover,
-tr:nth-child(4) > th:hover,
-tr:nth-child(5) > th:hover,
-tr:nth-child(6) > th:hover,
-tr:nth-child(7) > th:hover,
-tr:nth-child(8) > th:hover{
+tr:nth-of-type(2) > th:hover,
+tr:nth-of-type(3) > th:hover,
+tr:nth-of-type(4) > th:hover,
+tr:nth-of-type(5) > th:hover,
+tr:nth-of-type(6) > th:hover,
+tr:nth-of-type(7) > th:hover,
+tr:nth-of-type(8) > th:hover,
+tr:nth-of-type(9) > th:hover,
+tr:nth-of-type(10) > th:hover,
+tr:nth-of-type(11) > th:hover,
+tr:nth-of-type(12) > th:hover,
+tr:nth-of-type(13) > th:hover,
+tr:nth-of-type(14) > th:hover,
+tr:nth-of-type(15) > th:hover{
     color: #6400FF;
-
 }
 
 
@@ -67,7 +73,14 @@ tr:nth-of-type(4) > td:hover,
 tr:nth-of-type(5) > td:hover,
 tr:nth-of-type(6) > td:hover,
 tr:nth-of-type(7) > td:hover,
-tr:nth-of-type(8) > td:hover{
+tr:nth-of-type(8) > td:hover,
+tr:nth-of-type(9) > td:hover,
+tr:nth-of-type(10) > td:hover,
+tr:nth-of-type(11) > td:hover,
+tr:nth-of-type(12) > td:hover,
+th:nth-of-type(13) > td:hover,
+th:nth-of-type(14) > td:hover,
+tr:nth-of-type(15) > td:hover{
     color: #fff;
     animation: rainbow 1s infinite;
 
